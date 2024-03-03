@@ -1,0 +1,36 @@
+.outer_div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.login_static {
+    margin: 0 0 50px;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+}
+
+.middle_div {
+    margin: 10px 0;
+}
+
+.static01 {
+    text-align: right;
+}
+
+.btn_login {
+    margin: 10px 0;
+}
+/* .outer_div .dx-fieldset-header {
+    margin: 0 0 50px;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+}
+
+.outer_div .dx-field-label {
+    font-size: 20px;
+} */
