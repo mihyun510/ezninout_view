@@ -21,9 +21,9 @@ function Login() {
             us_id : i_id,
             us_pw : i_pw
         }
-        await axios.post("http://localhost:8080/api/login", data)
-            .then((response)=> {
-                console.log(response);
+        await axios.post("http://localhost:3002/api/login", data)
+            .then( res => {
+                console.log(res);
                 //여기서 user_name 이 있으면 로그인 성공
                 //없으면 Id와 pw 을 입력하세요 라는 문구 띄우기
 
